@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: #ffa500;
+
+}
+.col1 img{
+    width: 50px;
+    height: 50px;
+}
+.col1{
+    display: flex;
+}
+
+.col2 a{
+    justify-content: space-between;
+    text-decoration: none;
+    padding:30px;
+}
+.col2 input{
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    outline-color:orange;
+}
+
+
+.btn-cointainer h2{
+    text-align: center;
+    margin-top: 10px;
+    color:#ff4500;
+    font-size: 2rem;
+    font-weight: 700;
+
+
+}
+.btn-cointainer {
+    position: absolute;
+    left: -100%;
+    animation: move linear 12.5s infinite;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes move {
+    from { left: -100%; 
+        
+    }
+    to { left: 100%; 
+        
+    }
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+.swiggy-btn{
+    border: 1.5px solid orange;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+
+}
+
+.swiggy-btn:hover{
+    background-color: coral;
+    color: white;
+}
+
+#swiggy-card-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.swiggy_card_card{
+    padding: 1%;
+    width:25%;
+    text-align: center;
+    position: relative;
+   
+}
+
+.swiggy_card_card_img{
+    height:300px;
+    width:100%;
+    border: 3px solid rgb(212, 108, 70);
+    border-radius: 22px;
+    
+}
+.swiggy_card_card_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.swiggy_card_card_head{
+    padding-top:5%;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.swiggy_card_card_offer{
+    position: absolute;
+    top:240px;
+    left:20px;
+    padding:4%;
+    background-color:orangered;
+    color:white;
+    border-radius: 20px 0px 20px 0px;
+
+
+}
+
+.swiggy_card_card_type{
+    padding-top: 5%;
+    font-size: 20px;
+    color:black;
+
+}
+
+
+.swiggy_card_card_price{
+    padding-top: 5%;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #ff4500;
+}
+
+.swiggy_card_card_place{
+    color:rgb(203, 19, 19);
+    padding-top: 5%;
+    font-weight: bolder;
+
+}
+

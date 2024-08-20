@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiggy</title>
+    <!--font-style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--css-style-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header-section-->
+    <section class="header">
+        <div class="head-sec">
+            <div class="row">
+                <div class="col1">
+                    <img src="images/s1-removebg-preview.png">
+                    <h2>Ramanathapuram Restaurant</h2>
+                </div>
+                <div class="col2">
+
+                    <i class="fa fa-search" aria-hidden="true"></i><input type="text" placeholder="search" onclick="myfunction()">
+
+                    <a href="offer.html"><i class="fa fa-user" aria-hidden="true"></i>Offer</a>
+                    <a href=""><i class="fa fa-home" aria-hidden="true"></i>Help</a>
+                    <a href=""><i class="fa fa-user" aria-hidden="true"></i>Sing In</a>
+                    <a href=""><i class="fa fa-tv" aria-hidden="true"></i>Card</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--button section-->
+    <section class="button-sec">
+        <div class="btn-cointainer">
+            <h2>Restaurants with online food delivery in Ramanathapuram & welcome to our branch!!!</h2>
+        </div>
+
+        <div class="btn-row">
+            <div class="swiggy-btn" onclick="relevent()">
+                Relevent
+    
+            </div>
+            <div class="swiggy-btn" onclick="sort()">
+                Sort List
+                
+            </div>
+            <div class="swiggy-btn" onclick="fast()">
+                Fast Delivery
+            
+            </div>
+            <div class="swiggy-btn" onclick="rating()">
+                Rating 40+
+            
+            </div>
+            <div class="swiggy-btn" onclick="veg()">
+                Pure veg
+            
+            </div>
+            <div class="swiggy-btn" onclick="above()">
+                Rs:300-600
+            
+            </div>
+        </div>
+    </section>
+
+    <!--card-section-->
+    <section id="swiggy-card-sec">
+        <div id="swiggy-card-container">
+            <div id="swiggy-card-row">
+                
+
+            </div>
+
+        </div>
+
+    </section>
+<script src="main.js"></script>
+</body>
+</html>
